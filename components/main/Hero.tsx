@@ -25,6 +25,8 @@ function LayoutPreview() {
           playsInline
           preload="auto"
           onCanPlay={() => setIsLoaded(true)}
+          onContextMenu={(e) => e.preventDefault()}
+          controlsList="nodownload"
         >
           <source src={VIDEO_URL} type="video/mp4" />
         </video>
@@ -40,10 +42,10 @@ export function Hero() {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           {/* Main Headline */}
-          <h1 className="text-4xl md:text-7xl font-bold font-playfair tracking-tight mb-4 md:mb-8">
+          <h1 className="text-4xl md:text-6xl font-bold font-playfair tracking-tight mb-4 md:mb-8">
             Full Screenshot
             <br />
-            <span className="opacity-75">Multiple Splits</span>
+            <span className="opacity-75 italic">Multiple Splits</span>
           </h1>
 
           {/* Subheadline */}

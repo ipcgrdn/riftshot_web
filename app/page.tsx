@@ -5,6 +5,7 @@ import {
   Features,
   UseCases,
   Showcase,
+  Pricing,
   CTA,
   Footer,
 } from "@/components/main";
@@ -18,6 +19,7 @@ export default function Home() {
       <Features />
       <UseCases />
       <Showcase />
+      <Pricing />
       <CTA />
       <Footer />
     </main>

@@ -5,4 +5,5 @@ export { Features } from "./Features";
 export { UseCases } from "./UseCases";
 export { Showcase } from "./Showcase";
 export { CTA } from "./CTA";
+export { Pricing } from "./Pricing";
 export { Footer } from "./Footer";
