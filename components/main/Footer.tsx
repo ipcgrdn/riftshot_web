@@ -48,7 +48,9 @@ export function Footer() {
               <ul className="space-y-3">
                 <li>
                   <a
-                    href="#"
+                    href="https://x.com/jayychoii_"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-sm text-black/70 hover:text-black transition-colors"
                   >
                     Twitter
@@ -57,7 +59,9 @@ export function Footer() {
 
                 <li>
                   <a
-                    href="#"
+                    href="https://discord.gg/GGSrhNQnEy"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-sm text-black/70 hover:text-black transition-colors"
                   >
                     Discord
@@ -74,7 +78,7 @@ export function Footer() {
               <ul className="space-y-3">
                 <li>
                   <a
-                    href="#"
+                    href="/privacy"
                     className="text-sm text-black/70 hover:text-black transition-colors"
                   >
                     Privacy Policy
@@ -82,7 +86,7 @@ export function Footer() {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/terms"
                     className="text-sm text-black/70 hover:text-black transition-colors"
                   >
                     Terms of Service
@@ -99,10 +103,12 @@ export function Footer() {
               <ul className="space-y-3">
                 <li>
                   <a
-                    href="#"
+                    href="https://discord.gg/GGSrhNQnEy"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-sm text-black/70 hover:text-black transition-colors"
                   >
-                    Support
+                    Support (Discord)
                   </a>
                 </li>
               </ul>
