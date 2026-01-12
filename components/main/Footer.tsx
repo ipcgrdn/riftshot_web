@@ -31,7 +31,7 @@ export function Footer() {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/changelog"
                     className="text-sm text-black/70 hover:text-black transition-colors"
                   >
                     Changelog
