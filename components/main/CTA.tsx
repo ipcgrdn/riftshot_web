@@ -13,7 +13,9 @@ export function CTA() {
             noticed.
           </p>
           <a
-            href="#"
+            href="https://chromewebstore.google.com/detail/riftshot/ggfcmgjjafcapbmclbehjkcbjpbgpfia"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-3 bg-black text-white px-6 py-3 md:px-12 md:py-5 rounded-2xl text-base md:text-lg font-medium hover:bg-black/80 transition-all shadow-xl"
           >
             <ChromeIcon className="w-6 h-6" />

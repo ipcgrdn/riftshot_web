@@ -60,7 +60,9 @@ export function Hero() {
           {/* CTA Buttons */}
           <div className="flex items-center justify-center">
             <a
-              href="#"
+              href="https://chromewebstore.google.com/detail/riftshot/ggfcmgjjafcapbmclbehjkcbjpbgpfia"
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center gap-3 bg-black text-white px-6 py-2.5 md:px-8 md:py-4 rounded-full text-lg font-medium hover:bg-black/75 transition-all shadow-lg"
             >
               <ChromeIcon className="w-5 h-5" />
