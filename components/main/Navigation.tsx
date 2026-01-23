@@ -71,9 +71,11 @@ export function Navigation() {
             alt="Riftshot Logo"
             width={28}
             height={28}
-            className="w-7 h-7"
+            className="w-7 h-7 mt-0.5"
           />
-          <span className="font-semibold hidden md:block">Riftshot</span>
+          <span className="text-lg hidden md:block font-semibold">
+            Riftshot
+          </span>
         </Link>
 
         {/* Nav Links - Absolute Center */}

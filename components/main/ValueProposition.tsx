@@ -8,7 +8,7 @@ const features = [
     id: "capture",
     title: "Full-Page Capture",
     description: "Capture entire webpages with a single click.",
-    image: "/main/capture.png",
+    image: "/main/1.png",
     icon: (
       <svg
         className="w-8 h-8"
@@ -36,7 +36,7 @@ const features = [
     title: "Auto Split Layouts",
     description:
       "Automatically divide your screenshot into stunning multi-panel layouts.",
-    image: "/main/split.png",
+    image: "/main/2.png",
     icon: (
       <svg
         className="w-8 h-8"
@@ -58,7 +58,7 @@ const features = [
     title: "Beautiful Styling",
     description:
       "Add frames, shadows, backgrounds, and effects to make your shots stand out.",
-    image: "/main/styling.png",
+    image: "/main/3.png",
     icon: (
       <svg
         className="w-8 h-8"
@@ -79,7 +79,7 @@ const features = [
     id: "export",
     title: "Export in 8K",
     description: "Download as PNG or JPEG with resolution options up to 8K.",
-    image: "/main/export.png",
+    image: "/main/4.png",
     icon: (
       <svg
         className="w-8 h-8"
@@ -221,9 +221,7 @@ export function ValueProposition() {
                     src={feature.image}
                     alt={feature.title}
                     fill
-                    className={`object-contain ${
-                      feature.id === "export" ? "scale-75" : ""
-                    }`}
+                    className={`object-contain`}
                     priority={index === 0}
                   />
                 </div>
