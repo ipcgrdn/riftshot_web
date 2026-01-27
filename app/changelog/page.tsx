@@ -10,6 +10,15 @@ export const metadata: Metadata = {
 
 const changelog = [
   {
+    version: "1.0.1",
+    date: "January 27, 2026",
+    changes: [
+      "Fixed loading screen",
+      "Fixed default values",
+      "Improved panel design",
+    ],
+  },
+  {
     version: "1.0.0",
     date: "January 11, 2026",
     changes: [
@@ -62,11 +71,7 @@ export default function Changelog() {
                   </div>
 
                   {/* Changes list */}
-                  <div
-                    className={`${
-                      index === 0 ? "bg-[#FBF5DF]/50" : "bg-black/5"
-                    } rounded-2xl p-6`}
-                  >
+                  <div className="bg-black/5 rounded-2xl p-6">
                     <ul className="space-y-3">
                       {release.changes.map((change, changeIndex) => (
                         <li
